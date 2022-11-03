@@ -1,0 +1,14 @@
+﻿@model HomeIndex;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!--presentación-->
+<partial  name="_presentacion">
+
+<!--Habilidades-->
+<partial  name="_habilidades">
+
+<!--Cards Proyectos-->
+<partial name="_seccionProyectos" model="Model.Proyectos">
